@@ -9,3 +9,10 @@
 # Wyniki zaokrąglij do 1 miejsca po przecinku: f"{x:.1f}"
 
 # TODO: Twój kod poniżej
+celsius = float(input("Podaj temperaturę w stopniach Celsjusza: "))
+fahrenheit_from_c = celsius * 9 / 5 + 32
+print(f"{celsius} C = {fahrenheit_from_c:.1f} F")
+
+fahrenheit = float(input("Podaj temperaturę w stopniach Fahrenheita: "))
+celsius_from_f = (fahrenheit - 32) * 5 / 9
+print(f"{fahrenheit} F = {celsius_from_f:.1f} C")

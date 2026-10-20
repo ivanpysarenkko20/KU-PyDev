@@ -13,3 +13,14 @@
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
 # TODO: Twój kod poniżej
+a = float(input("Podaj pierwszą liczbę: "))
+b = float(input("Podaj drugą liczbę: "))
+
+print(f"Suma: {a + b}")
+print(f"Różnica: {a - b}")
+print(f"Iloczyn: {a * b}")
+print(f"Iloraz: {a / b}")
+print(f"Dzielenie całkowite: {a // b}")
+print(f"Reszta z dzielenia: {a % b}")
+print(f"Potęgowanie: {a ** b}")
+
