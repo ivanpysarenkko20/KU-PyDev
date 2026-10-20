@@ -30,7 +30,7 @@ elif horyzont < 2:
     print("Lokata lub konto oszczędnościowe")
 elif risk == "niskie":
     print("Obligacje skarbowe")
-elif risk == "srednie":
+elif risk == "średnie":
     print("Fundusz mieszany")
 elif risk == "wysokie" and horyzont >= 5:
     print("Fundusz akcji (ETF)")
