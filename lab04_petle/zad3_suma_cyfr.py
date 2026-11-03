@@ -11,3 +11,20 @@
 # Uwaga: liczba 0 ma jedną cyfrę.
 
 # TODO: Twój kod poniżej
+
+n = int(input("Wpisz nieujemną liczbę całkowitą: "))   
+
+suma_cyfr = 0
+liczba_cyfr = 0
+
+while n > 0:
+    ostatnia_cyfra = n % 10
+    suma_cyfr += ostatnia_cyfra
+    liczba_cyfr += 1
+    n //= 10
+
+if liczba_cyfr == 0: 
+    liczba_cyfr = 1
+
+print(f"Suma cyfr: {suma_cyfr}")
+print(f"Liczba cyfr: {liczba_cyfr}")
